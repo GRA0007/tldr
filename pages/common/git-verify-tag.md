@@ -4,11 +4,11 @@
 > If tag isn't signed with -s when made, you will get an error regardless of signing.
 > More information: <https://git-scm.com/docs/git-verify-tag>.
 
-- Check tags for a GPG signature: 
+- Check tags for a GPG signature:
 
 `git verify-tag {{tag1 optional_tag2 ...}}`
 
--Chceck tags for a GPG signature and show details of each tag:
+-Check tags for a GPG signature and show details of each tag:
 
 `git verify-tag {{tag1 optional_tag2 ...}} --verbose`
 
